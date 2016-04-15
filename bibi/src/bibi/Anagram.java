@@ -37,7 +37,7 @@ public class Anagram {
 			map.put(a.charAt(i), ++occurA);
 			int occurB = map.containsKey(b.charAt(i))?(int) map.get(b.charAt(i)):0;
 			map.put(b.charAt(i), --occurB);				
-
+//			String m = "abcdef";
 //			StringBuilder sb = new StringBuilder(m);
 		}
 		for(int j : map.values()){
